@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/catalogue.ts"],
+  "sourcesContent": ["interface Product {\n    id: string;\n    title: string;\n    description: string;\n    stock: number;\n    price: number;\n  }\n\nconst products: Product[] = [\n    {\n      id: \"solar\",\n      title: \"Solar Panel\",\n      description: \"Super duper Essent solar panel\",\n      stock: 10,\n      price: 750,\n    },\n    {\n      id: \"insulation\",\n      title: \"Insulation\",\n      description: \"Cavity wall insulation\",\n      stock: 10,\n      price: 2500,\n    },\n    {\n      id: \"heatpump\",\n      title: \"Awesome Heatpump\",\n      description: \"Hybrid heat pump\",\n      stock: 3,\n      price: 5000,\n    },\n  ];\n\nexport { products, Product };"],
+  "mappings": ";;;;;;;;;;;;;;;;;AAAA;AAAA;AAAA;AAAA;AAAA;AAQA,MAAM,WAAsB;AAAA,EACxB;AAAA,IACE,IAAI;AAAA,IACJ,OAAO;AAAA,IACP,aAAa;AAAA,IACb,OAAO;AAAA,IACP,OAAO;AAAA,EACT;AAAA,EACA;AAAA,IACE,IAAI;AAAA,IACJ,OAAO;AAAA,IACP,aAAa;AAAA,IACb,OAAO;AAAA,IACP,OAAO;AAAA,EACT;AAAA,EACA;AAAA,IACE,IAAI;AAAA,IACJ,OAAO;AAAA,IACP,aAAa;AAAA,IACb,OAAO;AAAA,IACP,OAAO;AAAA,EACT;AACF;",
+  "names": []
+}

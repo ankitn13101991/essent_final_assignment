@@ -1,0 +1,19 @@
+{
+  "name": "@essent-saving-program/source",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start": "nx serve",
+    "build": "nx build",
+    "test": "nx test"
+  },
+  "private": true,
+  "dependencies": {
+    "axios": "1.6.0",
+    "express": "4.18.2",
+    "tslib": "2.6.2",
+    "uuid": "9.0.1"
+  },
+  "main": "./main.js",
+  "type": "commonjs"
+}
